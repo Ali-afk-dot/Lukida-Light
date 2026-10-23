@@ -662,7 +662,7 @@ class user extends appluserdb
       
       
       
-      $this->cases  = bausteine::regeln($this->cases);
+      
       file_put_contents($File, json_encode($this->cases, true));
       
     }
@@ -686,7 +686,7 @@ class user extends appluserdb
       
       
       
-      $this->casesmedia  = bausteine::regeln($this->casesmedia);
+      
       file_put_contents($File, json_encode($this->casesmedia, true));
       
     }
