@@ -142,6 +142,7 @@ CREATE TABLE "user".adminlevels (
     classlocals text DEFAULT '',
     buildings text DEFAULT '',
     dois text DEFAULT '',
+    sort integer DEFAULT 100,
     ipranges jsonb DEFAULT '[]'
 );
 
