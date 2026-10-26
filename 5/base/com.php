@@ -2,6 +2,9 @@
 
 
 use PHPMailer\PHPMailer;
+require_once __DIR__ . '/_librarys/PHPMailer/Exception.php';
+require_once __DIR__ . '/_librarys/PHPMailer/PHPMailer.php';
+require_once __DIR__ . '/_librarys/PHPMailer/SMTP.php';
 
 
 
